@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ASSEMBLY_SET>
+    <ASSEMBLY accession="GCA_000001215.2" alias="Release 5" center_name="The FlyBase Consortium/Berkeley Drosophila Genome Project/Celera Genomics">
+        <IDENTIFIERS>
+            <PRIMARY_ID>GCA_000001215.2</PRIMARY_ID>
+            <SUBMITTER_ID namespace="The FlyBase Consortium/Berkeley Drosophila Genome Project/Celera Genomics">Release 5</SUBMITTER_ID>
+        </IDENTIFIERS>
+        <TITLE>Release 5 assembly for Drosophila melanogaster</TITLE>
+        <DESCRIPTION>&lt;p&gt;The &lt;i&gt;D. melanogaster&lt;/i&gt; genome is approximately 180 Mb in size, 120 Mb of which is euchromatic, and was sequenced as an early test of the applicability of whole-genome shotgun (WGS) sequencing technology for large eukaryotic genomes. The genome is organized into two large and one small autosomes, an X chromosome, and a heterochromatic Y chromosome. The heterochromatin is mainly comprised of simple repeats, transposable elements, and tandem arrays of ribosomal RNA genes. A small number of genes have also been found within the heterochromatin.&lt;/p&gt; &lt;p&gt;The sequence of the &lt;i&gt;D. melanogaster&lt;/i&gt; genome, originally determined in a collaboration between &lt;A HREF="http://www.celera.com/"&gt;Celera&lt;/a&gt; and the &lt;A HREF="http://www.fruitfly.org/"&gt;Berkeley Drosophila Genome Project&lt;/a&gt;, is described in the March 24, 2000 issue of &lt;A HREF="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=PubMed&amp;list_uids=10731132&amp;dopt=Abstract"&gt;Science&lt;/a&gt;. Ongoing efforts at the &lt;a href="http://www.fruitfly.org/"&gt;Berkeley Drosophila Genome Project&lt;/a&gt; and &lt;a href="http://www.dhgp.org/"&gt;Drosophila Heterochromatin Genome Project&lt;/a&gt; have corrected and expanded the sequence (&lt;A HREF="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=PubMed&amp;cmd=Retrieve&amp;list_uids=12537568&amp;dopt=AbstractPlus"&gt;Celniker et al., 2002&lt;/a&gt;; &lt;a href="http://www.ncbi.nlm.nih.gov/sites/entrez?cmd=Retrieve&amp;db=PubMed&amp;list_uids=12537574&amp;dopt=AbstractPlus"&gt;Hoskins et al., 2002&lt;/a&gt;). In August 2007, Release 5.2 was made public, providing a unified assembly of the euchromatin and heterochromatin with only 8 gaps remaining in the euchromatic chromosome arm assemblies. A genome browser containing the release 5 assembly and annotation data is available at &lt;a href="http://flybase.net/cgi-bin/gbrowse_fb/dmel"&gt;FlyBase&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;Release 5 of the &lt;i&gt;D. melanogaster&lt;/i&gt; genomic sequence is available for download from &lt;a href="http://www.ncbi.nlm.nih.gov/sites/entrez?db=nuccore&amp;cmd=search&amp;term=AE014296:AE014298[PACC]%20OR%20AE013599[PACC]%20OR%20AE014134:AE014135[PACC]%20OR%20CM000456:CM000461[PACC]%20OR%20DS483543:DS486008[PACC]"&gt;GenBank&lt;/a&gt;, and from the &lt;a href="ftp://ftp.fruitfly.org/pub/download/compressed/dmel_release5.tgz"&gt;Berkeley Drosophila Genome Project&lt;/a&gt; website along with the &lt;a href="http://www.fruitfly.org/sequence/README.RELEASE5"&gt;Release 5 notes&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;The FlyBase Consortium provides a high quality annotation of the &lt;i&gt;D. melanogaster&lt;/i&gt; genome (&lt;A HREF="http://www.ncbi.nlm.nih.gov/sites/entrez?cmd=Retrieve&amp;db=PubMed&amp;list_uids=12537572&amp;dopt=AbstractPlus"&gt;Misra et al., 2002&lt;/a&gt;). FlyBase curators manually review available genomic, transcript, and protein sequence data to generate gene models based on traceable support evidence. Annotation includes protein coding genes, pseudogenes, and non-coding RNA genes. The annotation provided by FlyBase is available at the FlyBase web site, in sequence updates submitted to the archival databases (DDBJ/EMBL/GenBank), in the NCBI RefSeq records, and in the NCBI Map Viewer genome browser.&lt;/p&gt;&lt;br/&gt;&lt;p&gt;&lt;b&gt;Comment&lt;/b&gt;&lt;br/&gt;This sequence is a scaffold of ordered and oriented sequence contigs from a whole genome shotgun assembly (WGS3). Gaps in the sequence are filled with Ns to the estimated size.~For further information about this sequence, including its location and relationship to other sequences, please visit our sequence archive Web site (http://www.fruitfly.org) or send email to bdgp@fruitfly.berkeley.edu.~The number of contigs is less than the number of accession numbers because some contigs have been replaced by others.~~The CON records are the annotated heterochomatin from the FlyBase Consortium (GPID 13812). CM000456-CM000461 are from the chromosome arms, and DS483543-DS486008 are the unplaced (chrUn) sequences. FA000001 is the unordered assembly of those unplaced sequences.</DESCRIPTION>
+        <NAME>Release 5</NAME>
+        <ASSEMBLY_LEVEL>chromosome</ASSEMBLY_LEVEL>
+        <GENOME_REPRESENTATION>full</GENOME_REPRESENTATION>
+        <TAXON>
+            <TAXON_ID>7227</TAXON_ID>
+            <SCIENTIFIC_NAME>Drosophila melanogaster</SCIENTIFIC_NAME>
+            <COMMON_NAME>fruit fly</COMMON_NAME>
+        </TAXON>
+        <SAMPLE_REF>
+            <IDENTIFIERS>
+                <PRIMARY_ID>SAMN02803731</PRIMARY_ID>
+            </IDENTIFIERS>
+        </SAMPLE_REF>
+        <STUDY_REF>
+            <IDENTIFIERS>
+                <PRIMARY_ID>PRJNA13812</PRIMARY_ID>
+            </IDENTIFIERS>
+        </STUDY_REF>
+        <WGS_SET>
+            <PREFIX>AABU</PREFIX>
+            <VERSION>1</VERSION>
+        </WGS_SET>
+        <CHROMOSOMES>
+            <CHROMOSOME accession="AE014298.4">
+                <NAME>X</NAME>
+                <TYPE>Chromosome</TYPE>
+            </CHROMOSOME>
+            <CHROMOSOME accession="AE014134.5">
+                <NAME>2L</NAME>
+                <TYPE>Chromosome</TYPE>
+            </CHROMOSOME>
+            <CHROMOSOME accession="AE013599.4">
+                <NAME>2R</NAME>
+                <TYPE>Chromosome</TYPE>
+            </CHROMOSOME>
+            <CHROMOSOME accession="AE014296.4">
+                <NAME>3L</NAME>
+                <TYPE>Chromosome</TYPE>
+            </CHROMOSOME>
+            <CHROMOSOME accession="AE014297.2">
+                <NAME>3R</NAME>
+                <TYPE>Chromosome</TYPE>
+            </CHROMOSOME>
+            <CHROMOSOME accession="AE014135.3">
+                <NAME>4</NAME>
+                <TYPE>Chromosome</TYPE>
+            </CHROMOSOME>
+            <CHROMOSOME accession="FA000001.1">
+                <NAME>Un</NAME>
+            </CHROMOSOME>
+        </CHROMOSOMES>
+        <ASSEMBLY_LINKS>
+            <ASSEMBLY_LINK>
+                <URL_LINK>
+                    <LABEL>WGS_SET_FLATFILE</LABEL>
+                    <URL>ftp://ftp.ebi.ac.uk/pub/databases/ena/wgs/public/aa/AABU01.dat.gz</URL>
+                </URL_LINK>
+            </ASSEMBLY_LINK>
+            <ASSEMBLY_LINK>
+                <URL_LINK>
+                    <LABEL>WGS_SET_FASTA</LABEL>
+                    <URL>ftp://ftp.ebi.ac.uk/pub/databases/ena/wgs/public/aa/AABU01.fasta.gz</URL>
+                </URL_LINK>
+            </ASSEMBLY_LINK>
+            <ASSEMBLY_LINK>
+                <URL_LINK>
+                    <LABEL>Sequence Report</LABEL>
+                    <URL>ftp://ftp.ebi.ac.uk/pub/databases/ena/assembly/GCA_000/GCA_000001/GCA_000001215.2_sequence_report.txt</URL>
+                </URL_LINK>
+            </ASSEMBLY_LINK>
+        </ASSEMBLY_LINKS>
+        <ASSEMBLY_ATTRIBUTES>
+            <ASSEMBLY_ATTRIBUTE>
+                <TAG>total-length</TAG>
+                <VALUE>139465864</VALUE>
+            </ASSEMBLY_ATTRIBUTE>
+            <ASSEMBLY_ATTRIBUTE>
+                <TAG>ungapped-length</TAG>
+                <VALUE>136806539</VALUE>
+            </ASSEMBLY_ATTRIBUTE>
+            <ASSEMBLY_ATTRIBUTE>
+                <TAG>n50</TAG>
+                <VALUE>23011544</VALUE>
+            </ASSEMBLY_ATTRIBUTE>
+            <ASSEMBLY_ATTRIBUTE>
+                <TAG>spanned-gaps</TAG>
+                <VALUE>579</VALUE>
+            </ASSEMBLY_ATTRIBUTE>
+            <ASSEMBLY_ATTRIBUTE>
+                <TAG>unspanned-gaps</TAG>
+                <VALUE>0</VALUE>
+            </ASSEMBLY_ATTRIBUTE>
+            <ASSEMBLY_ATTRIBUTE>
+                <TAG>scaffold-count</TAG>
+                <VALUE>2478</VALUE>
+            </ASSEMBLY_ATTRIBUTE>
+            <ASSEMBLY_ATTRIBUTE>
+                <TAG>count-contig</TAG>
+                <VALUE>3057</VALUE>
+            </ASSEMBLY_ATTRIBUTE>
+            <ASSEMBLY_ATTRIBUTE>
+                <TAG>contig-n50</TAG>
+                <VALUE>21485538</VALUE>
+            </ASSEMBLY_ATTRIBUTE>
+            <ASSEMBLY_ATTRIBUTE>
+                <TAG>contig-L50</TAG>
+                <VALUE>3</VALUE>
+            </ASSEMBLY_ATTRIBUTE>
+            <ASSEMBLY_ATTRIBUTE>
+                <TAG>contig-n75</TAG>
+                <VALUE>16668212</VALUE>
+            </ASSEMBLY_ATTRIBUTE>
+            <ASSEMBLY_ATTRIBUTE>
+                <TAG>contig-n90</TAG>
+                <VALUE>263391</VALUE>
+            </ASSEMBLY_ATTRIBUTE>
+            <ASSEMBLY_ATTRIBUTE>
+                <TAG>scaf-L50</TAG>
+                <VALUE>3</VALUE>
+            </ASSEMBLY_ATTRIBUTE>
+            <ASSEMBLY_ATTRIBUTE>
+                <TAG>scaf-n75</TAG>
+                <VALUE>21146708</VALUE>
+            </ASSEMBLY_ATTRIBUTE>
+            <ASSEMBLY_ATTRIBUTE>
+                <TAG>scaf-n90</TAG>
+                <VALUE>2517507</VALUE>
+            </ASSEMBLY_ATTRIBUTE>
+            <ASSEMBLY_ATTRIBUTE>
+                <TAG>replicon-count</TAG>
+                <VALUE>7</VALUE>
+            </ASSEMBLY_ATTRIBUTE>
+            <ASSEMBLY_ATTRIBUTE>
+                <TAG>count-non-chromosome-replicon</TAG>
+                <VALUE>0</VALUE>
+            </ASSEMBLY_ATTRIBUTE>
+            <ASSEMBLY_ATTRIBUTE>
+                <TAG>count-alt-loci-units</TAG>
+                <VALUE>0</VALUE>
+            </ASSEMBLY_ATTRIBUTE>
+            <ASSEMBLY_ATTRIBUTE>
+                <TAG>count-regions</TAG>
+                <VALUE>0</VALUE>
+            </ASSEMBLY_ATTRIBUTE>
+            <ASSEMBLY_ATTRIBUTE>
+                <TAG>count-patches</TAG>
+                <VALUE>0</VALUE>
+            </ASSEMBLY_ATTRIBUTE>
+            <ASSEMBLY_ATTRIBUTE>
+                <TAG>ENA-LAST-UPDATED</TAG>
+                <VALUE>2016-11-29</VALUE>
+            </ASSEMBLY_ATTRIBUTE>
+        </ASSEMBLY_ATTRIBUTES>
+    </ASSEMBLY>
+    <ASSEMBLY accession="GCA_000001215.3" alias="Release 6" center_name="The FlyBase Consortium/Berkeley Drosophila Genome Project/Celera Genomics">
+        <IDENTIFIERS>
+            <PRIMARY_ID>GCA_000001215.3</PRIMARY_ID>
+            <SUBMITTER_ID namespace="The FlyBase Consortium/Berkeley Drosophila Genome Project/Celera Genomics">Release 6</SUBMITTER_ID>
+        </IDENTIFIERS>
+        <TITLE>Release 6 assembly for Drosophila melanogaster</TITLE>
+        <DESCRIPTION>&lt;p&gt;The &lt;i&gt;D. melanogaster&lt;/i&gt; genome is approximately 180 Mb in size, 120 Mb of which is euchromatic, and was sequenced as an early test of the applicability of whole-genome shotgun (WGS) sequencing technology for large eukaryotic genomes. The genome is organized into two large and one small autosomes, an X chromosome, and a heterochromatic Y chromosome. The heterochromatin is mainly comprised of simple repeats, transposable elements, and tandem arrays of ribosomal RNA genes. A small number of genes have also been found within the heterochromatin.&lt;/p&gt; &lt;p&gt;The sequence of the &lt;i&gt;D. melanogaster&lt;/i&gt; genome, originally determined in a collaboration between &lt;A HREF="http://www.celera.com/"&gt;Celera&lt;/a&gt; and the &lt;A HREF="http://www.fruitfly.org/"&gt;Berkeley Drosophila Genome Project&lt;/a&gt;, is described in the March 24, 2000 issue of &lt;A HREF="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=PubMed&amp;list_uids=10731132&amp;dopt=Abstract"&gt;Science&lt;/a&gt;. Ongoing efforts at the &lt;a href="http://www.fruitfly.org/"&gt;Berkeley Drosophila Genome Project&lt;/a&gt; and &lt;a href="http://www.dhgp.org/"&gt;Drosophila Heterochromatin Genome Project&lt;/a&gt; have corrected and expanded the sequence (&lt;A HREF="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=PubMed&amp;cmd=Retrieve&amp;list_uids=12537568&amp;dopt=AbstractPlus"&gt;Celniker et al., 2002&lt;/a&gt;; &lt;a href="http://www.ncbi.nlm.nih.gov/sites/entrez?cmd=Retrieve&amp;db=PubMed&amp;list_uids=12537574&amp;dopt=AbstractPlus"&gt;Hoskins et al., 2002&lt;/a&gt;). In August 2007, Release 5.2 was made public, providing a unified assembly of the euchromatin and heterochromatin with only 8 gaps remaining in the euchromatic chromosome arm assemblies. A genome browser containing the release 5 assembly and annotation data is available at &lt;a href="http://flybase.net/cgi-bin/gbrowse_fb/dmel"&gt;FlyBase&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;Release 5 of the &lt;i&gt;D. melanogaster&lt;/i&gt; genomic sequence is available for download from &lt;a href="http://www.ncbi.nlm.nih.gov/sites/entrez?db=nuccore&amp;cmd=search&amp;term=AE014296:AE014298[PACC]%20OR%20AE013599[PACC]%20OR%20AE014134:AE014135[PACC]%20OR%20CM000456:CM000461[PACC]%20OR%20DS483543:DS486008[PACC]"&gt;GenBank&lt;/a&gt;, and from the &lt;a href="ftp://ftp.fruitfly.org/pub/download/compressed/dmel_release5.tgz"&gt;Berkeley Drosophila Genome Project&lt;/a&gt; website along with the &lt;a href="http://www.fruitfly.org/sequence/README.RELEASE5"&gt;Release 5 notes&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;The FlyBase Consortium provides a high quality annotation of the &lt;i&gt;D. melanogaster&lt;/i&gt; genome (&lt;A HREF="http://www.ncbi.nlm.nih.gov/sites/entrez?cmd=Retrieve&amp;db=PubMed&amp;list_uids=12537572&amp;dopt=AbstractPlus"&gt;Misra et al., 2002&lt;/a&gt;). FlyBase curators manually review available genomic, transcript, and protein sequence data to generate gene models based on traceable support evidence. Annotation includes protein coding genes, pseudogenes, and non-coding RNA genes. The annotation provided by FlyBase is available at the FlyBase web site, in sequence updates submitted to the archival databases (DDBJ/EMBL/GenBank), in the NCBI RefSeq records, and in the NCBI Map Viewer genome browser.&lt;/p&gt;&lt;br/&gt;&lt;p&gt;&lt;b&gt;Comment&lt;/b&gt;&lt;br/&gt;This is Release 6 of the Drosophila melanogaster genome, produced jointly by the Berkeley Drosophila Genome Project, Celera Genomics, and the Drosophila Heterochromatin Genome Project. The gene annotation is based on Release 6.32 provided by FlyBase. Additional information about this assembly and annotation can be found at http://www.fruitfly.org and http://flybase.org.</DESCRIPTION>
+        <NAME>Release 6</NAME>
+        <ASSEMBLY_LEVEL>chromosome</ASSEMBLY_LEVEL>
+        <GENOME_REPRESENTATION>full</GENOME_REPRESENTATION>
+        <TAXON>
+            <TAXON_ID>7227</TAXON_ID>
+            <SCIENTIFIC_NAME>Drosophila melanogaster</SCIENTIFIC_NAME>
+            <COMMON_NAME>fruit fly</COMMON_NAME>
+        </TAXON>
+        <SAMPLE_REF>
+            <IDENTIFIERS>
+                <PRIMARY_ID>SAMN02803731</PRIMARY_ID>
+            </IDENTIFIERS>
+        </SAMPLE_REF>
+        <STUDY_REF>
+            <IDENTIFIERS>
+                <PRIMARY_ID>PRJNA13812</PRIMARY_ID>
+            </IDENTIFIERS>
+        </STUDY_REF>
+        <CHROMOSOMES>
+            <CHROMOSOME accession="AE014298.5">
+                <NAME>X</NAME>
+                <TYPE>Chromosome</TYPE>
+            </CHROMOSOME>
+            <CHROMOSOME accession="AE014134.6">
+                <NAME>2L</NAME>
+                <TYPE>Chromosome</TYPE>
+            </CHROMOSOME>
+            <CHROMOSOME accession="AE013599.5">
+                <NAME>2R</NAME>
+                <TYPE>Chromosome</TYPE>
+            </CHROMOSOME>
+            <CHROMOSOME accession="AE014296.5">
+                <NAME>3L</NAME>
+                <TYPE>Chromosome</TYPE>
+            </CHROMOSOME>
+            <CHROMOSOME accession="AE014297.3">
+                <NAME>3R</NAME>
+                <TYPE>Chromosome</TYPE>
+            </CHROMOSOME>
+            <CHROMOSOME accession="AE014135.4">
+                <NAME>4</NAME>
+                <TYPE>Chromosome</TYPE>
+            </CHROMOSOME>
+            <CHROMOSOME accession="CP007106.1">
+                <NAME>Y</NAME>
+                <TYPE>Chromosome</TYPE>
+            </CHROMOSOME>
+        </CHROMOSOMES>
+        <ASSEMBLY_LINKS>
+            <ASSEMBLY_LINK>
+                <URL_LINK>
+                    <LABEL>Sequence Report</LABEL>
+                    <URL>ftp://ftp.ebi.ac.uk/pub/databases/ena/assembly/GCA_000/GCA_000001/GCA_000001215.3_sequence_report.txt</URL>
+                </URL_LINK>
+            </ASSEMBLY_LINK>
+        </ASSEMBLY_LINKS>
+        <ASSEMBLY_ATTRIBUTES>
+            <ASSEMBLY_ATTRIBUTE>
+                <TAG>total-length</TAG>
+                <VALUE>143706478</VALUE>
+            </ASSEMBLY_ATTRIBUTE>
+            <ASSEMBLY_ATTRIBUTE>
+                <TAG>ungapped-length</TAG>
+                <VALUE>142553500</VALUE>
+            </ASSEMBLY_ATTRIBUTE>
+            <ASSEMBLY_ATTRIBUTE>
+                <TAG>n50</TAG>
+                <VALUE>25286936</VALUE>
+            </ASSEMBLY_ATTRIBUTE>
+            <ASSEMBLY_ATTRIBUTE>
+                <TAG>spanned-gaps</TAG>
+                <VALUE>572</VALUE>
+            </ASSEMBLY_ATTRIBUTE>
+            <ASSEMBLY_ATTRIBUTE>
+                <TAG>unspanned-gaps</TAG>
+                <VALUE>0</VALUE>
+            </ASSEMBLY_ATTRIBUTE>
+            <ASSEMBLY_ATTRIBUTE>
+                <TAG>scaffold-count</TAG>
+                <VALUE>1869</VALUE>
+            </ASSEMBLY_ATTRIBUTE>
+            <ASSEMBLY_ATTRIBUTE>
+                <TAG>count-contig</TAG>
+                <VALUE>2441</VALUE>
+            </ASSEMBLY_ATTRIBUTE>
+            <ASSEMBLY_ATTRIBUTE>
+                <TAG>contig-n50</TAG>
+                <VALUE>21485538</VALUE>
+            </ASSEMBLY_ATTRIBUTE>
+            <ASSEMBLY_ATTRIBUTE>
+                <TAG>contig-L50</TAG>
+                <VALUE>3</VALUE>
+            </ASSEMBLY_ATTRIBUTE>
+            <ASSEMBLY_ATTRIBUTE>
+                <TAG>contig-n75</TAG>
+                <VALUE>17021040</VALUE>
+            </ASSEMBLY_ATTRIBUTE>
+            <ASSEMBLY_ATTRIBUTE>
+                <TAG>contig-n90</TAG>
+                <VALUE>666663</VALUE>
+            </ASSEMBLY_ATTRIBUTE>
+            <ASSEMBLY_ATTRIBUTE>
+                <TAG>scaf-L50</TAG>
+                <VALUE>3</VALUE>
+            </ASSEMBLY_ATTRIBUTE>
+            <ASSEMBLY_ATTRIBUTE>
+                <TAG>scaf-n75</TAG>
+                <VALUE>23542271</VALUE>
+            </ASSEMBLY_ATTRIBUTE>
+            <ASSEMBLY_ATTRIBUTE>
+                <TAG>scaf-n90</TAG>
+                <VALUE>23513712</VALUE>
+            </ASSEMBLY_ATTRIBUTE>
+            <ASSEMBLY_ATTRIBUTE>
+                <TAG>replicon-count</TAG>
+                <VALUE>7</VALUE>
+            </ASSEMBLY_ATTRIBUTE>
+            <ASSEMBLY_ATTRIBUTE>
+                <TAG>count-non-chromosome-replicon</TAG>
+                <VALUE>0</VALUE>
+            </ASSEMBLY_ATTRIBUTE>
+            <ASSEMBLY_ATTRIBUTE>
+                <TAG>count-alt-loci-units</TAG>
+                <VALUE>0</VALUE>
+            </ASSEMBLY_ATTRIBUTE>
+            <ASSEMBLY_ATTRIBUTE>
+                <TAG>count-regions</TAG>
+                <VALUE>0</VALUE>
+            </ASSEMBLY_ATTRIBUTE>
+            <ASSEMBLY_ATTRIBUTE>
+                <TAG>count-patches</TAG>
+                <VALUE>0</VALUE>
+            </ASSEMBLY_ATTRIBUTE>
+            <ASSEMBLY_ATTRIBUTE>
+                <TAG>ENA-LAST-UPDATED</TAG>
+                <VALUE>2016-03-10</VALUE>
+            </ASSEMBLY_ATTRIBUTE>
+        </ASSEMBLY_ATTRIBUTES>
+    </ASSEMBLY>
+    <ASSEMBLY accession="GCA_000001215.4" alias="Release 6 plus ISO1 MT" center_name="The FlyBase Consortium/Berkeley Drosophila Genome Project/Celera Genomics">
+        <IDENTIFIERS>
+            <PRIMARY_ID>GCA_000001215.4</PRIMARY_ID>
+            <SUBMITTER_ID namespace="The FlyBase Consortium/Berkeley Drosophila Genome Project/Celera Genomics">Release 6 plus ISO1 MT</SUBMITTER_ID>
+        </IDENTIFIERS>
+        <TITLE>Release 6 plus ISO1 mitochondrial genome</TITLE>
+        <DESCRIPTION>&lt;p&gt;The &lt;i&gt;D. melanogaster&lt;/i&gt; genome is approximately 180 Mb in size, 120 Mb of which is euchromatic, and was sequenced as an early test of the applicability of whole-genome shotgun (WGS) sequencing technology for large eukaryotic genomes. The genome is organized into two large and one small autosomes, an X chromosome, and a heterochromatic Y chromosome. The heterochromatin is mainly comprised of simple repeats, transposable elements, and tandem arrays of ribosomal RNA genes. A small number of genes have also been found within the heterochromatin.&lt;/p&gt; &lt;p&gt;The sequence of the &lt;i&gt;D. melanogaster&lt;/i&gt; genome, originally determined in a collaboration between &lt;A HREF="http://www.celera.com/"&gt;Celera&lt;/a&gt; and the &lt;A HREF="http://www.fruitfly.org/"&gt;Berkeley Drosophila Genome Project&lt;/a&gt;, is described in the March 24, 2000 issue of &lt;A HREF="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=PubMed&amp;list_uids=10731132&amp;dopt=Abstract"&gt;Science&lt;/a&gt;. Ongoing efforts at the &lt;a href="http://www.fruitfly.org/"&gt;Berkeley Drosophila Genome Project&lt;/a&gt; and &lt;a href="http://www.dhgp.org/"&gt;Drosophila Heterochromatin Genome Project&lt;/a&gt; have corrected and expanded the sequence (&lt;A HREF="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=PubMed&amp;cmd=Retrieve&amp;list_uids=12537568&amp;dopt=AbstractPlus"&gt;Celniker et al., 2002&lt;/a&gt;; &lt;a href="http://www.ncbi.nlm.nih.gov/sites/entrez?cmd=Retrieve&amp;db=PubMed&amp;list_uids=12537574&amp;dopt=AbstractPlus"&gt;Hoskins et al., 2002&lt;/a&gt;). In August 2007, Release 5.2 was made public, providing a unified assembly of the euchromatin and heterochromatin with only 8 gaps remaining in the euchromatic chromosome arm assemblies. A genome browser containing the release 5 assembly and annotation data is available at &lt;a href="http://flybase.net/cgi-bin/gbrowse_fb/dmel"&gt;FlyBase&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;Release 5 of the &lt;i&gt;D. melanogaster&lt;/i&gt; genomic sequence is available for download from &lt;a href="http://www.ncbi.nlm.nih.gov/sites/entrez?db=nuccore&amp;cmd=search&amp;term=AE014296:AE014298[PACC]%20OR%20AE013599[PACC]%20OR%20AE014134:AE014135[PACC]%20OR%20CM000456:CM000461[PACC]%20OR%20DS483543:DS486008[PACC]"&gt;GenBank&lt;/a&gt;, and from the &lt;a href="ftp://ftp.fruitfly.org/pub/download/compressed/dmel_release5.tgz"&gt;Berkeley Drosophila Genome Project&lt;/a&gt; website along with the &lt;a href="http://www.fruitfly.org/sequence/README.RELEASE5"&gt;Release 5 notes&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;The FlyBase Consortium provides a high quality annotation of the &lt;i&gt;D. melanogaster&lt;/i&gt; genome (&lt;A HREF="http://www.ncbi.nlm.nih.gov/sites/entrez?cmd=Retrieve&amp;db=PubMed&amp;list_uids=12537572&amp;dopt=AbstractPlus"&gt;Misra et al., 2002&lt;/a&gt;). FlyBase curators manually review available genomic, transcript, and protein sequence data to generate gene models based on traceable support evidence. Annotation includes protein coding genes, pseudogenes, and non-coding RNA genes. The annotation provided by FlyBase is available at the FlyBase web site, in sequence updates submitted to the archival databases (DDBJ/EMBL/GenBank), in the NCBI RefSeq records, and in the NCBI Map Viewer genome browser.&lt;/p&gt;&lt;br/&gt;&lt;p&gt;&lt;b&gt;Comment&lt;/b&gt;&lt;br/&gt;This is Release 6 of the Drosophila melanogaster genome, produced jointly by the Berkeley Drosophila Genome Project, Celera Genomics, and the Drosophila Heterochromatin Genome Project. The gene annotation is based on Release 6.32 provided by FlyBase. Additional information about this assembly and annotation can be found at http://www.fruitfly.org and http://flybase.org.</DESCRIPTION>
+        <NAME>Release 6 plus ISO1 MT</NAME>
+        <ASSEMBLY_LEVEL>chromosome</ASSEMBLY_LEVEL>
+        <GENOME_REPRESENTATION>full</GENOME_REPRESENTATION>
+        <TAXON>
+            <TAXON_ID>7227</TAXON_ID>
+            <SCIENTIFIC_NAME>Drosophila melanogaster</SCIENTIFIC_NAME>
+            <COMMON_NAME>fruit fly</COMMON_NAME>
+        </TAXON>
+        <SAMPLE_REF>
+            <IDENTIFIERS>
+                <PRIMARY_ID>SAMN02803731</PRIMARY_ID>
+            </IDENTIFIERS>
+        </SAMPLE_REF>
+        <STUDY_REF>
+            <IDENTIFIERS>
+                <PRIMARY_ID>PRJNA13812</PRIMARY_ID>
+            </IDENTIFIERS>
+        </STUDY_REF>
+        <CHROMOSOMES>
+            <CHROMOSOME accession="AE014298.5">
+                <NAME>X</NAME>
+                <TYPE>Chromosome</TYPE>
+            </CHROMOSOME>
+            <CHROMOSOME accession="AE014134.6">
+                <NAME>2L</NAME>
+                <TYPE>Chromosome</TYPE>
+            </CHROMOSOME>
+            <CHROMOSOME accession="AE013599.5">
+                <NAME>2R</NAME>
+                <TYPE>Chromosome</TYPE>
+            </CHROMOSOME>
+            <CHROMOSOME accession="AE014296.5">
+                <NAME>3L</NAME>
+                <TYPE>Chromosome</TYPE>
+            </CHROMOSOME>
+            <CHROMOSOME accession="AE014297.3">
+                <NAME>3R</NAME>
+                <TYPE>Chromosome</TYPE>
+            </CHROMOSOME>
+            <CHROMOSOME accession="AE014135.4">
+                <NAME>4</NAME>
+                <TYPE>Chromosome</TYPE>
+            </CHROMOSOME>
+            <CHROMOSOME accession="CP007106.1">
+                <NAME>Y</NAME>
+                <TYPE>Chromosome</TYPE>
+            </CHROMOSOME>
+            <CHROMOSOME accession="KJ947872.2">
+                <NAME>MT</NAME>
+                <TYPE>Mitochondrion</TYPE>
+            </CHROMOSOME>
+        </CHROMOSOMES>
+        <ASSEMBLY_LINKS>
+            <ASSEMBLY_LINK>
+                <URL_LINK>
+                    <LABEL>Sequence Report</LABEL>
+                    <URL>ftp://ftp.ebi.ac.uk/pub/databases/ena/assembly/GCA_000/GCA_000001/GCA_000001215.4_sequence_report.txt</URL>
+                </URL_LINK>
+            </ASSEMBLY_LINK>
+        </ASSEMBLY_LINKS>
+        <ASSEMBLY_ATTRIBUTES>
+            <ASSEMBLY_ATTRIBUTE>
+                <TAG>total-length</TAG>
+                <VALUE>143726002</VALUE>
+            </ASSEMBLY_ATTRIBUTE>
+            <ASSEMBLY_ATTRIBUTE>
+                <TAG>ungapped-length</TAG>
+                <VALUE>142573024</VALUE>
+            </ASSEMBLY_ATTRIBUTE>
+            <ASSEMBLY_ATTRIBUTE>
+                <TAG>n50</TAG>
+                <VALUE>25286936</VALUE>
+            </ASSEMBLY_ATTRIBUTE>
+            <ASSEMBLY_ATTRIBUTE>
+                <TAG>spanned-gaps</TAG>
+                <VALUE>572</VALUE>
+            </ASSEMBLY_ATTRIBUTE>
+            <ASSEMBLY_ATTRIBUTE>
+                <TAG>unspanned-gaps</TAG>
+                <VALUE>0</VALUE>
+            </ASSEMBLY_ATTRIBUTE>
+            <ASSEMBLY_ATTRIBUTE>
+                <TAG>scaffold-count</TAG>
+                <VALUE>1870</VALUE>
+            </ASSEMBLY_ATTRIBUTE>
+            <ASSEMBLY_ATTRIBUTE>
+                <TAG>count-contig</TAG>
+                <VALUE>2442</VALUE>
+            </ASSEMBLY_ATTRIBUTE>
+            <ASSEMBLY_ATTRIBUTE>
+                <TAG>contig-n50</TAG>
+                <VALUE>21485538</VALUE>
+            </ASSEMBLY_ATTRIBUTE>
+            <ASSEMBLY_ATTRIBUTE>
+                <TAG>contig-L50</TAG>
+                <VALUE>3</VALUE>
+            </ASSEMBLY_ATTRIBUTE>
+            <ASSEMBLY_ATTRIBUTE>
+                <TAG>contig-n75</TAG>
+                <VALUE>17021040</VALUE>
+            </ASSEMBLY_ATTRIBUTE>
+            <ASSEMBLY_ATTRIBUTE>
+                <TAG>contig-n90</TAG>
+                <VALUE>666663</VALUE>
+            </ASSEMBLY_ATTRIBUTE>
+            <ASSEMBLY_ATTRIBUTE>
+                <TAG>scaf-L50</TAG>
+                <VALUE>3</VALUE>
+            </ASSEMBLY_ATTRIBUTE>
+            <ASSEMBLY_ATTRIBUTE>
+                <TAG>scaf-n75</TAG>
+                <VALUE>23542271</VALUE>
+            </ASSEMBLY_ATTRIBUTE>
+            <ASSEMBLY_ATTRIBUTE>
+                <TAG>scaf-n90</TAG>
+                <VALUE>23513712</VALUE>
+            </ASSEMBLY_ATTRIBUTE>
+            <ASSEMBLY_ATTRIBUTE>
+                <TAG>replicon-count</TAG>
+                <VALUE>8</VALUE>
+            </ASSEMBLY_ATTRIBUTE>
+            <ASSEMBLY_ATTRIBUTE>
+                <TAG>count-non-chromosome-replicon</TAG>
+                <VALUE>1</VALUE>
+            </ASSEMBLY_ATTRIBUTE>
+            <ASSEMBLY_ATTRIBUTE>
+                <TAG>count-alt-loci-units</TAG>
+                <VALUE>0</VALUE>
+            </ASSEMBLY_ATTRIBUTE>
+            <ASSEMBLY_ATTRIBUTE>
+                <TAG>count-regions</TAG>
+                <VALUE>0</VALUE>
+            </ASSEMBLY_ATTRIBUTE>
+            <ASSEMBLY_ATTRIBUTE>
+                <TAG>count-patches</TAG>
+                <VALUE>0</VALUE>
+            </ASSEMBLY_ATTRIBUTE>
+            <ASSEMBLY_ATTRIBUTE>
+                <TAG>ENA-LAST-UPDATED</TAG>
+                <VALUE>2016-03-10</VALUE>
+            </ASSEMBLY_ATTRIBUTE>
+        </ASSEMBLY_ATTRIBUTES>
+    </ASSEMBLY>
+</ASSEMBLY_SET>
